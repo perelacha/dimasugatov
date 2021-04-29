@@ -34,6 +34,16 @@ function setup() {
 function draw() {
   background(0);
 
+  push();
+	textSize(30)
+	textAlign(CENTER);
+	text("Hello World!\My name is Dima\I do design and creative coding ",width/2,200)
+	//text("Press T to see the target",width/2,300)
+		textSize(120)
+
+	//text("Worm AI",width/2,250)
+	pop();
+
   for (let i = 0; i < cols; i++) {
     for (let j = 0; j < rows; j++) {
       let x = i * resolution;
