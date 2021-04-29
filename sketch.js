@@ -34,10 +34,10 @@ function setup() {
 function draw() {
   background(0);
 
-  push();
-	textSize(30)
-	textAlign(CENTER);
-	text("Hello World!\nMy name is Dima\nI do design and creative coding",width/2,200);
+        push();
+	textSize(30);
+	//textAlign(CENTER);
+	text("Hello World!\nMy name is Dima\nI'm a designer and creative coder",100,200);
 	textSize(120);
 	pop();
 
