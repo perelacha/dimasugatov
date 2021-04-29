@@ -36,9 +36,8 @@ function draw() {
 
         push();
 	textSize(50);
-	//textAlign(CENTER);
+	fill(255);
 	text("Hello World!\nMy name is Dima\nI'm a designer and creative coder",50,100);
-	textSize(120);
 	pop();
 
 
